@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    background-color: #f1f2f7;
+    padding-bottom: 80px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.container-header{
+    margin: 0;
+    padding: 0;
+}
+.container-header img{
+    z-index: -1;
+    background-repeat: no-repeat;
+    height: 699px;
+    width: 100%;
+    background-size: cover;
+}
+.content{
+    position: absolute ;
+    top: 40%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around ;
+
+}
+.header-title {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 60px;
+    font-weight: 100 ;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-decoration-line: underline ;
+    text-decoration-color: white;
+    
+}
+h3{
+    /* font-family: 'Raleway', sans-serif; */
+    color: white;
+    font-size: 40px;
+    font-weight: 100 ; 
+    letter-spacing: 3px;
+}
+
+.w3-center {
+    text-align: center;
+}
+.w3-display-middle {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+.about, .education{
+    padding-top: 20px;
+}
+.nav-title{
+    background-color: white;
+    z-index: 1;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+}
+.ndung-title{
+    margin: 0px;
+    font-family: 'Raleway', sans-serif ;
+    font-size: 40px;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.about-.container .container{
+    padding-left: 15px;
+    padding-right:15px ;
+    margin-left: auto;
+    margin-right:auto ;
+}
+.profile-ava{
+    padding: 12px;
+}
+.section-box, .section-box-education{
+    background-color: white;
+    border-radius: 5px;
+}
+.profile-summary,.profile-contact{
+    padding: 30px;
+}
+.title-summary, .title-contact{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 30px;
+    color: black;
+    text-transform: uppercase;
+}
+.content-summary,.content-contact{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    color: black;
+}
+a.link:link, a.link:visited
+{
+color:green;
+text-decoration:none;
+}
+.content-contact img{
+    width: 20px;
+    height: 20px;
+}
+.timeline{
+    display: block;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 10px solid #f1f2f7;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    position: relative;
+    top: -50px;
+    left: 50%;
+    margin-left: -50px;
+    margin-right: 50px;
+    color: white;
+}
+.timeline-infor{
+    line-height: 10px;
+}
+.education-knowledge{
+    padding-top: 30px;
+    font-size: 15px;
+}
+.section-box-education:hover .timeline.green-light {
+    border: 5px solid #f1f2f7;
+    padding-top: 21px;
+    background-color: green;
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+}
+.section-box-education:hover .timeline.blue-light {
+    border: 5px solid #f1f2f7;
+    padding-top: 21px;
+    background-color: blue;
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+}
+.green-light{
+    background-color: #aec785 ;
+}
+.blue-light{
+    background-color: #84bedf;
+}
