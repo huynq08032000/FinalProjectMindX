@@ -231,6 +231,7 @@ color: white;
   font-family:verdana;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   transition: background 0.1s ease-in-out;
+  cursor: pointer;
 }
 .menu-bar li:first-child a{
     height:5em;
