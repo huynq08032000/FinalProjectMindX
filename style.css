@@ -404,12 +404,13 @@ color: white;
  .mask .more-infor{
     font-family: 'Raleway', sans-serif;
     text-align: left; 
-    font-size: 15px;
+    font-size: 18px;
     color: yellow;
     padding: 10px 20px 20px;
  }
  .hobbies-title{
     font-family: 'Raleway', sans-serif; 
-    color:  red; font-size: 36px; 
+    color:  red; 
+    font-size: 36px; 
     cursor: pointer;
  }
