@@ -282,7 +282,8 @@ color: white;
     }
     .para{
     padding-left:5px;
-}  
+    }
+   
 }
 @media screen and (max-height: 34em){
   .menu li,
@@ -414,3 +415,7 @@ color: white;
     font-size: 36px; 
     cursor: pointer;
  }
+ .container-languages{
+     display: flex;
+     justify-content: space-around;
+ } 
